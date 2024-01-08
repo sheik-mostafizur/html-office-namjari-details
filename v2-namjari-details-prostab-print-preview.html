@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="bn" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Namjari Application Details | Smart Mutation BD</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="sdg-development" />
+    <meta name="keywords" content="sdg framework">
+    <meta name="description" content="One Stop Service is an online platform integrating relevant Government agencies for providing efficient and transparent
+            services to domestic and foreign investors" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Fav icon -->
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css?v723873834736" />
+
+    <!-- TailwindCSS cdn for play -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <div id="smtDashMainContainer" class="site-dash-main w-full relative transition-all ease-in-out duration-200 pl-0">
+
+        <div class="fixed menuBodyWrap z-20 inset-0 bg-black opacity-50 transition-opacity hidden"></div>
+        <div
+            class="smt-sidebar block lg:hidden min-w-[240px] w-[240px] 2xl:w-[300px] transition-all ease-in-out duration-200 fixed left-0 top-0 h-full pt-[60px] bg-[#f8f9fd] z-50">
+            <div class="menu-conteiner h-full overflow-y-auto font-normal bg-white rounded-md pl-1 pb-6 pr-2">
+                <nav class="mt-4 px-3">
+                    <div class="smtDropdown open relative w-full text-[#63747B]">
+                        <a class="smtDropdownItem dash-sb-menu-item smt-transition mb-[1px] pr-8 pl-4" href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.25 4.875C2.25 2.90609 2.27108 2.25 4.875 2.25C7.47892 2.25 7.5 2.90609 7.5 4.875C7.5 6.84391 7.5083 7.5 4.875 7.5C2.2417 7.5 2.25 6.84391 2.25 4.875Z"
+                                        stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.5 4.875C10.5 2.90609 10.5211 2.25 13.125 2.25C15.7289 2.25 15.75 2.90609 15.75 4.875C15.75 6.84391 15.7583 7.5 13.125 7.5C10.4917 7.5 10.5 6.84391 10.5 4.875Z"
+                                        stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.25 13.125C2.25 11.1561 2.27108 10.5 4.875 10.5C7.47892 10.5 7.5 11.1561 7.5 13.125C7.5 15.0939 7.5083 15.75 4.875 15.75C2.2417 15.75 2.25 15.0939 2.25 13.125Z"
+                                        stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.5 13.125C10.5 11.1561 10.5211 10.5 13.125 10.5C15.7289 10.5 15.75 11.1561 15.75 13.125C15.75 15.0939 15.7583 15.75 13.125 15.75C10.4917 15.75 10.5 15.0939 10.5 13.125Z"
+                                        stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">ড্যাশবোর্ড</span>
+                            <i
+                                class="smtDD_icon text-[10px] fa-solid fa-chevron-right d-block absolute right-4 top-auto"></i>
+                        </a>
+                        <div id="navbarSupportedContent1" class="smtSubmenu">
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                কার্যক্রম</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                মনিটরিং</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                প্ৰস্তুতকৃত নামজারী খতিয়ান</a>
+                        </div>
+                    </div>
+
+                    <div class="relative w-full">
+                        <a class="dash-sb-menu-item smt-transition flex relative items-center mb-[1px] py-[5px] px-4 rounded text-[#63747B] hover:bg-green-600 hover:text-white leading-none"
+                            href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3884_28829)">
+                                        <path
+                                            d="M14.5547 5.22949C14.7488 5.22949 14.9062 5.0721 14.9062 4.87793V1.05469C14.9062 0.473133 14.4331 0 13.8516 0H1.05469C0.473133 0 0 0.473133 0 1.05469V16.9453C0 17.5269 0.473133 18 1.05469 18H13.8516C14.4331 18 14.9062 17.5269 14.9062 16.9453V14.3553C14.9062 14.1611 14.7488 14.0037 14.5547 14.0037C14.3606 14.0037 14.2031 14.1611 14.2031 14.3553V16.9453C14.2031 17.1392 14.0454 17.2969 13.8516 17.2969H1.05469C0.860836 17.2969 0.703125 17.1392 0.703125 16.9453V1.05469C0.703125 0.860836 0.860836 0.703125 1.05469 0.703125H13.8516C14.0454 0.703125 14.2031 0.860836 14.2031 1.05469V4.87793C14.2031 5.0721 14.3606 5.22949 14.5547 5.22949Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M7.45312 1.89844C5.66968 1.89844 4.21875 3.34937 4.21875 5.13281C4.21875 6.05802 4.60934 6.89361 5.23413 7.48367C5.24584 7.49619 5.25828 7.50804 5.27189 7.51883C5.84743 8.04544 6.61338 8.36715 7.45309 8.36715C8.2928 8.36715 9.05875 8.0454 9.63429 7.51883C9.64789 7.50804 9.66034 7.49616 9.67205 7.48367C10.2969 6.89361 10.6875 6.05802 10.6875 5.13281C10.6875 3.34937 9.23657 1.89844 7.45312 1.89844ZM7.45312 7.66406C6.87906 7.66406 6.34925 7.47169 5.92414 7.14839C6.23313 6.60048 6.80973 6.25781 7.45312 6.25781C8.09652 6.25781 8.67312 6.60048 8.9821 7.14839C8.55696 7.47169 8.02719 7.66406 7.45312 7.66406ZM6.89062 4.99219V4.76367C6.89062 4.45352 7.14298 4.20117 7.45312 4.20117C7.76327 4.20117 8.01562 4.45352 8.01562 4.76367V4.99219C8.01562 5.30234 7.76327 5.55469 7.45312 5.55469C7.14298 5.55469 6.89062 5.30234 6.89062 4.99219ZM9.49008 6.63339C9.2308 6.24885 8.87147 5.94977 8.45427 5.76513C8.61985 5.55114 8.71875 5.28307 8.71875 4.99219V4.76367C8.71875 4.06578 8.15101 3.49805 7.45312 3.49805C6.75524 3.49805 6.1875 4.06578 6.1875 4.76367V4.99219C6.1875 5.28307 6.28639 5.55114 6.45198 5.76513C6.03478 5.94977 5.67545 6.24885 5.41617 6.63339C5.10578 6.21316 4.92187 5.69415 4.92187 5.13281C4.92187 3.73707 6.05739 2.60156 7.45312 2.60156C8.84886 2.60156 9.98437 3.73707 9.98437 5.13281C9.98437 5.69415 9.80047 6.21316 9.49008 6.63339Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9.35156 15.3984H7.45312C7.25899 15.3984 7.10156 15.5558 7.10156 15.75C7.10156 15.9442 7.25899 16.1016 7.45312 16.1016H9.35156C9.54569 16.1016 9.70312 15.9442 9.70312 15.75C9.70312 15.5558 9.54569 15.3984 9.35156 15.3984Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9.35156 13.4297H4.35937C4.16524 13.4297 4.00781 13.5871 4.00781 13.7812C4.00781 13.9754 4.16524 14.1328 4.35937 14.1328H9.35156C9.54569 14.1328 9.70312 13.9754 9.70312 13.7812C9.70312 13.5871 9.54569 13.4297 9.35156 13.4297Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9.35156 11.4609H4.35937C4.16524 11.4609 4.00781 11.6183 4.00781 11.8125C4.00781 12.0067 4.16524 12.1641 4.35937 12.1641H9.35156C9.54569 12.1641 9.70312 12.0067 9.70312 11.8125C9.70312 11.6183 9.54569 11.4609 9.35156 11.4609Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M3.10825 9.5952C3.04289 9.5298 2.95219 9.49219 2.85937 9.49219C2.76688 9.49219 2.67618 9.5298 2.61082 9.5952C2.54543 9.66059 2.50781 9.75129 2.50781 9.84375C2.50781 9.93621 2.54539 10.0269 2.61082 10.0923C2.67656 10.1577 2.76688 10.1953 2.85937 10.1953C2.95219 10.1953 3.04254 10.1577 3.10825 10.0923C3.17364 10.0269 3.21129 9.93621 3.21129 9.84375C3.21129 9.75129 3.17367 9.66059 3.10825 9.5952Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M3.10825 11.5639C3.04254 11.4986 2.95219 11.4609 2.85937 11.4609C2.76688 11.4609 2.67656 11.4986 2.61082 11.5639C2.54543 11.6293 2.50781 11.72 2.50781 11.8125C2.50781 11.905 2.54539 11.9957 2.61082 12.0611C2.67656 12.1264 2.76688 12.1641 2.85937 12.1641C2.95219 12.1641 3.04254 12.1264 3.10825 12.0611C3.17364 11.9957 3.21129 11.905 3.21129 11.8125C3.21129 11.72 3.17367 11.6293 3.10825 11.5639Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M3.10825 13.5327C3.04254 13.4673 2.95219 13.4297 2.85937 13.4297C2.76688 13.4297 2.67656 13.4673 2.61082 13.5327C2.54543 13.5981 2.50781 13.6888 2.50781 13.7812C2.50781 13.8737 2.54539 13.9644 2.61082 14.0298C2.67618 14.0952 2.76688 14.1328 2.85937 14.1328C2.95219 14.1328 3.04289 14.0952 3.10825 14.0298C3.17364 13.9644 3.21129 13.8737 3.21129 13.7812C3.21129 13.6888 3.17367 13.5981 3.10825 13.5327Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9.35156 9.49219H4.35937C4.16524 9.49219 4.00781 9.64958 4.00781 9.84375C4.00781 10.0379 4.16524 10.1953 4.35937 10.1953H9.35156C9.54569 10.1953 9.70312 10.0379 9.70312 9.84375C9.70312 9.64958 9.54569 9.49219 9.35156 9.49219Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M17.2684 4.58126C16.9269 4.38407 16.529 4.33169 16.148 4.43375C15.767 4.53584 15.4486 4.78018 15.2514 5.12172L10.8273 12.7845C10.803 12.8265 10.7877 12.8731 10.7823 12.9213L10.4709 15.7107C10.4555 15.8495 10.5236 15.9843 10.6445 16.0542C10.6991 16.0857 10.7598 16.1013 10.8203 16.1013C10.8938 16.1013 10.9671 16.0783 11.0288 16.0328L13.2888 14.3684C13.3278 14.3396 13.3605 14.3031 13.3847 14.2611L17.8088 6.59832C18.2159 5.89322 17.9735 4.98837 17.2684 4.58126ZM11.2588 14.9901L11.4215 13.5335L12.439 14.121L11.2588 14.9901ZM12.9516 13.605L11.612 12.8316L15.1622 6.68241L16.5019 7.45585L12.9516 13.605ZM17.1999 6.24672L16.8534 6.84694L15.5138 6.07351L15.8603 5.47328C15.9636 5.29437 16.1304 5.1664 16.3299 5.11293C16.5295 5.05942 16.7379 5.08692 16.9168 5.1902C17.0957 5.29349 17.2237 5.46027 17.2772 5.65982C17.3306 5.85937 17.3032 6.06781 17.1999 6.24672Z"
+                                            fill="#63747B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3884_28829">
+                                            <rect width="18" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">নামজারির আবেদনসমূহ</span>
+                        </a>
+                    </div>
+
+                    <div class="smtDropdown relative w-full text-[#63747B]">
+                        <a class="smtDropdownItem dash-sb-menu-item smt-transition flex relative items-center mb-[1px] py-2 pr-8 pl-4 rounded leading-none"
+                            href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3884_28860)">
+                                        <mask id="mask0_3884_28860" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+                                            <path d="M0 -1.90735e-06H18V18H0V-1.90735e-06Z" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_3884_28860)">
+                                            <path
+                                                d="M0.351562 16.1564V17.6484H13.217V13.0581L12.6943 13.8713L10.53 15.4153L11.0363 12.8054L13.217 9.41308V0.351559H0.351562V13.0627"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M17.2063 6.8547L12.6972 13.8691L11.0391 12.8033L15.5481 5.78883L17.2063 6.8547Z"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <path d="M11.0295 12.8059L10.5234 15.416L12.6877 13.8718L11.0295 12.8059Z"
+                                            stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <mask id="mask1_3884_28860" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+                                            <path d="M0 -1.90735e-06H18V18H0V-1.90735e-06Z" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask1_3884_28860)">
+                                            <path
+                                                d="M17.4856 6.40883L17.1972 6.85742L15.5391 5.79152L15.8274 5.34296C16.1217 4.88509 16.7315 4.75251 17.1894 5.04684C17.6473 5.34117 17.7799 5.95095 17.4856 6.40883Z"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M6.10938 15.416C6.48224 14.7456 7.00322 14.151 7.64314 13.7243C7.89324 13.5576 8.29919 13.3224 8.59127 13.523C8.77657 13.6503 8.86035 13.8732 8.8838 14.0888C8.92957 14.5091 8.94655 14.8261 8.88988 15.416C9.09562 14.9859 9.53405 14.5327 10.0197 14.442C10.2627 14.3966 10.4999 14.4997 10.5502 14.7605C10.5814 14.9224 10.5309 15.416 10.5309 15.416"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6.59944 6.44336H2.6875V2.00253H6.59944V6.44336Z" stroke="#63747B"
+                                                stroke-width="0.703125" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M8.60156 2.70117H11.1812" stroke="#63747B" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.60156 4.24805H11.1812" stroke="#63747B" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.60156 5.79297H11.1812" stroke="#63747B" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.1838 9.82812H2.75V8.09823H11.1838V9.82812Z" stroke="#63747B"
+                                                stroke-width="0.703125" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M2.88281 11.5605H7.73202" stroke="#63747B" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M2.88281 13.0352H5.16603" stroke="#63747B" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.48203 3.88205C5.48203 4.34309 5.10829 4.7168 4.64725 4.7168C4.18625 4.7168 3.8125 4.34309 3.8125 3.88205C3.8125 3.42104 4.18625 3.0473 4.64725 3.0473C5.10829 3.0473 5.48203 3.42104 5.48203 3.88205Z"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M4.64349 4.71786C4.64349 4.71786 2.6875 4.6455 2.6875 6.44336H4.64349H6.59944C6.59944 4.64754 4.64349 4.71786 4.64349 4.71786Z"
+                                                stroke="#63747B" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3884_28860">
+                                            <rect width="18" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">রেজিস্টারসমূহ</span>
+                            <i
+                                class="smtDD_icon text-[10px] fa-solid fa-chevron-right d-block absolute right-4 top-auto"></i>
+                        </a>
+                        <div id="navbarSupportedContent2" class="smtSubmenu">
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                রেজিস্টারসমূহ ১</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                রেজিস্টারসমূহ ২</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                রেজিস্টারসমূহ ৩</a>
+                        </div>
+                    </div>
+
+                    <div class="smtDropdown relative w-full text-[#63747B]">
+                        <a class="smtDropdownItem dash-sb-menu-item smt-transition flex relative items-center mb-[1px] py-2 pr-8 pl-4 rounded leading-none"
+                            href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3884_28955)">
+                                        <path
+                                            d="M9.84 18H8.16C7.59225 18 7.113 17.5747 7.0455 17.01L6.86625 15.603C6.5085 15.4867 6.1635 15.3435 5.83575 15.1762L4.71525 16.047C4.26075 16.3987 3.621 16.3582 3.2265 15.9525L2.04525 14.7712C1.6425 14.3805 1.602 13.7407 1.95375 13.287L2.8245 12.1657C2.6565 11.838 2.51325 11.493 2.39775 11.1352L0.98775 10.956C0.42525 10.887 0 10.4077 0 9.84V8.16C0 7.59225 0.42525 7.113 0.99 7.0455L2.397 6.86625C2.51325 6.5085 2.6565 6.1635 2.82375 5.83575L1.95375 4.71525C1.60125 4.26075 1.6425 3.62025 2.049 3.22575L3.23025 2.0445C3.621 1.64175 4.2615 1.602 4.7145 1.953L5.835 2.8245C6.16275 2.65725 6.50775 2.514 6.86625 2.39775L7.0455 0.98775C7.113 0.42525 7.59225 0 8.16 0H9.84C10.4077 0 10.887 0.42525 10.9545 0.99L11.1337 2.397C11.4922 2.51325 11.8372 2.6565 12.165 2.82375L13.2855 1.953C13.7407 1.60125 14.3797 1.64175 14.7742 2.04825L15.9555 3.2295C16.3582 3.62025 16.3987 4.26 16.047 4.71375L15.1762 5.835C15.3442 6.16275 15.4875 6.50775 15.603 6.8655L17.013 7.04475C17.5747 7.113 18 7.59225 18 8.16V9.84C18 10.4077 17.5747 10.887 17.01 10.9545L15.603 11.1337C15.4867 11.4915 15.3435 11.8365 15.1762 12.1642L16.047 13.2847C16.3995 13.7392 16.3582 14.379 15.9517 14.7735L14.7705 15.9547C14.3797 16.3575 13.7392 16.3987 13.2862 16.0462L12.165 15.1755C11.8372 15.3435 11.4922 15.4867 11.1345 15.6022L10.9552 17.0122C10.887 17.5747 10.4077 18 9.84 18ZM5.7975 14.355C5.85975 14.355 5.9235 14.3707 5.9805 14.4022C6.39375 14.6332 6.8415 14.8192 7.311 14.9542C7.455 14.9955 7.56075 15.1185 7.5795 15.267L7.7895 16.917C7.812 17.1052 7.97475 17.25 8.16 17.25H9.84C10.0252 17.25 10.188 17.1052 10.2097 16.9207L10.4205 15.2677C10.4392 15.1192 10.545 14.9962 10.689 14.955C11.1585 14.82 11.6062 14.634 12.0195 14.403C12.1507 14.3295 12.3142 14.3422 12.432 14.4345L13.7445 15.4545C13.8952 15.5715 14.1067 15.5617 14.2357 15.429L15.4245 14.2402C15.5602 14.1082 15.5707 13.8967 15.4537 13.7452L14.4337 12.4327C14.3415 12.3142 14.3287 12.1515 14.4022 12.0202C14.6332 11.607 14.8192 11.1592 14.9542 10.6897C14.9955 10.5457 15.1185 10.44 15.267 10.4212L16.917 10.2112C17.1052 10.188 17.25 10.0252 17.25 9.84V8.16C17.25 7.97475 17.1052 7.812 16.9207 7.79025L15.2677 7.5795C15.1192 7.56075 14.9962 7.455 14.955 7.311C14.82 6.8415 14.634 6.39375 14.403 5.9805C14.3295 5.84925 14.3415 5.6865 14.4345 5.568L15.4545 4.2555C15.5722 4.104 15.5617 3.8925 15.4297 3.765L14.241 2.57625C14.1097 2.43975 13.8975 2.42925 13.746 2.547L12.4335 3.567C12.3142 3.65925 12.1515 3.672 12.0202 3.5985C11.6085 3.3675 11.1607 3.18225 10.6897 3.0465C10.5457 3.00525 10.44 2.88225 10.4212 2.73375L10.2112 1.08375C10.188 0.89475 10.0252 0.75 9.84 0.75H8.16C7.97475 0.75 7.812 0.89475 7.79025 1.07925L7.5795 2.73225C7.56075 2.88075 7.455 3.00375 7.311 3.04575C6.84 3.18075 6.39225 3.36675 5.9805 3.597C5.84925 3.67125 5.6865 3.65775 5.56725 3.56625L4.25475 2.54625C4.10325 2.4285 3.8925 2.439 3.76425 2.571L2.5755 3.7605C2.43975 3.8925 2.42925 4.104 2.54625 4.2555L3.56625 5.568C3.6585 5.6865 3.67125 5.84925 3.59775 5.9805C3.366 6.39375 3.18075 6.8415 3.04575 7.311C3.0045 7.455 2.8815 7.56075 2.733 7.5795L1.083 7.7895C0.89475 7.812 0.75 7.97475 0.75 8.16V9.84C0.75 10.0252 0.89475 10.188 1.07925 10.2097L2.73225 10.4205C2.88075 10.4392 3.00375 10.545 3.045 10.689C3.18 11.1585 3.366 11.6062 3.597 12.0195C3.6705 12.1507 3.6585 12.3135 3.5655 12.432L2.5455 13.7445C2.42775 13.896 2.43825 14.1075 2.57025 14.235L3.759 15.4237C3.89025 15.5595 4.101 15.57 4.254 15.453L5.5665 14.433C5.63475 14.382 5.71575 14.355 5.7975 14.355Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9 12.75C6.93225 12.75 5.25 11.0677 5.25 9C5.25 6.93225 6.93225 5.25 9 5.25C11.0677 5.25 12.75 6.93225 12.75 9C12.75 11.0677 11.0677 12.75 9 12.75ZM9 6C7.3455 6 6 7.3455 6 9C6 10.6545 7.3455 12 9 12C10.6545 12 12 10.6545 12 9C12 7.3455 10.6545 6 9 6Z"
+                                            fill="#63747B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3884_28955">
+                                            <rect width="18" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">সেটিংস</span>
+                            <i
+                                class="smtDD_icon text-[10px] fa-solid fa-chevron-right d-block absolute right-4 top-auto"></i>
+                        </a>
+                        <div id="navbarSupportedContent2" class="smtSubmenu">
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                সেটিংস ১</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                সেটিংস ২</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                সেটিংস ৩</a>
+                        </div>
+                    </div>
+
+                    <div class="smtDropdown relative w-full text-[#63747B]">
+                        <a class="smtDropdownItem dash-sb-menu-item smt-transition flex relative items-center mb-[1px] py-2 pr-8 pl-4 rounded leading-none"
+                            href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3884_28927)">
+                                        <path
+                                            d="M11.1328 11.0801V13.1895H6.87889V11.0801H0.515625V17.4785H17.4609V11.0801H11.1328Z"
+                                            stroke="#63747B" stroke-width="0.8" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M3.71875 11.0762V2.63867H14.3007V11.0762" stroke="#63747B"
+                                            stroke-width="0.8" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M4.76562 2.64258V0.533203H13.2383V2.64258" stroke="#63747B"
+                                            stroke-width="0.8" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M0.515625 11.0801L2.62499 7.91602H3.71483" stroke="#63747B"
+                                            stroke-width="0.8" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M14.2969 7.91602H15.3516L17.4609 11.0801" stroke="#63747B"
+                                            stroke-width="0.8" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5.82812 4.74805H12.1914" stroke="#63747B" stroke-width="0.8"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M5.82812 6.85742H12.1914" stroke="#63747B" stroke-width="0.8"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M5.82812 8.9668H10.082" stroke="#63747B" stroke-width="0.8"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3884_28927">
+                                            <rect width="17.9999" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">আর্কাইভ</span>
+                            <i
+                                class="smtDD_icon text-[10px] fa-solid fa-chevron-right d-block absolute right-4 top-auto"></i>
+                        </a>
+                        <div id="navbarSupportedContent2" class="smtSubmenu">
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                আর্কাইভ ১</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                আর্কাইভ ২</a>
+                            <a class="hover:bg-green-600 hover:text-white" href="#"> -
+                                আর্কাইভ ৩</a>
+                        </div>
+                    </div>
+
+                    <div class="relative w-full">
+                        <a class="dash-sb-menu-item smt-transition flex relative items-center mb-[1px] py-[5px] px-4 rounded text-[#63747B] hover:bg-green-600 hover:text-white leading-none"
+                            href="#">
+                            <span class="smt-menu-icon h-[20px] w-[20px] flex items-center text-center">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3884_28960)">
+                                        <path
+                                            d="M4.27131 4.87109H9.44494C9.78585 4.87109 9.78585 4.34375 9.44494 4.34375H4.27131C3.9304 4.34375 3.9304 4.87109 4.27131 4.87109Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M4.27131 6.80664H8.24962C8.59053 6.80664 8.59053 6.2793 8.24962 6.2793H4.27131C3.9304 6.2793 3.9304 6.80664 4.27131 6.80664Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M4.27131 8.74023H7.68712C8.02803 8.74023 8.02803 8.21289 7.68712 8.21289H4.27131C3.9304 8.21289 3.9304 8.74023 4.27131 8.74023Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M9.13179 15.2017H8.9571V12.6248C8.9571 12.4792 8.83908 12.3611 8.69343 12.3611H7.63529V11.4316C7.63529 11.286 7.51727 11.168 7.37162 11.168H6.05302C5.90736 11.168 5.78934 11.286 5.78934 11.4316V13.0361H4.73329C4.58763 13.0361 4.46961 13.1541 4.46961 13.2997V15.2017H4.29492C4.14927 15.2017 4.03125 15.3197 4.03125 15.4654C4.03125 15.611 4.14927 15.729 4.29492 15.729H9.13175C9.27741 15.729 9.39542 15.611 9.39542 15.4654C9.39542 15.3197 9.27741 15.2017 9.13179 15.2017ZM4.99699 15.2017V13.5634H5.78829V15.2017H4.99699ZM6.31672 15.2017V11.6953H7.10798V15.2017H6.31672ZM7.63846 15.2017V12.8884H8.42975V15.2017H7.63846Z"
+                                            fill="#63747B" />
+                                        <path
+                                            d="M17.9977 8.2126C17.9634 7.10265 17.5113 6.05816 16.7247 5.27154C16.3473 4.8941 15.9171 4.60086 15.4578 4.3914C15.4501 4.38697 15.4421 4.38286 15.4338 4.37913C15.4254 4.37533 15.4169 4.37203 15.4083 4.36922C14.8142 4.10727 14.1732 3.98436 13.5351 4.00082V2.54809C13.5351 2.21038 13.2604 1.93563 12.9228 1.93563H12.5425V1.60643C12.5425 1.26872 12.2678 0.993972 11.9301 0.993972H11.5488V0.612457C11.5488 0.274746 11.2741 0 10.9365 0H0.612351C0.274676 0 0 0.274746 0 0.612457V15.4519C0 15.7897 0.274676 16.0644 0.612351 16.0644H0.993691V16.4459C0.993691 16.7836 1.26837 17.0584 1.60495 17.0584L1.98636 17.0599V17.3876C1.98636 17.7253 2.26104 18 2.59871 18H10.8351C10.904 18 10.9722 17.9719 11.0211 17.9232L13.4575 15.4983C13.5072 15.4488 13.5352 15.3816 13.5352 15.3115V12.6975C13.5707 12.6983 13.6063 12.6992 13.6418 12.6992C14.385 12.6992 15.1251 12.5092 15.7723 12.1466C16.0698 11.9799 15.812 11.52 15.5146 11.6865C14.1068 12.4754 12.3449 12.281 11.1382 11.231L13.7275 8.64176L17.2673 9.57979C17.1113 10.0411 16.8647 10.4788 16.5262 10.865C16.3015 11.1213 16.698 11.469 16.9227 11.2126C17.6501 10.3829 18.0319 9.31749 17.9977 8.2126ZM14.9726 4.76174L13.4276 8.19573L10.7648 10.8586C9.45678 9.35835 9.51658 7.07249 10.9447 5.64441C12.0318 4.55723 13.6162 4.26315 14.9726 4.76174ZM1.60597 16.531C1.55911 16.531 1.521 16.4928 1.521 16.4459V1.60643C1.521 1.5595 1.55911 1.52132 1.60597 1.52132H3.44528C3.78619 1.52132 3.78619 0.993972 3.44528 0.993972H1.60597C1.26833 0.993972 0.993656 1.26872 0.993656 1.60643V15.537H0.612351C0.565488 15.537 0.527344 15.4988 0.527344 15.4519V0.612457C0.527344 0.565523 0.565488 0.527344 0.612351 0.527344H10.9365C10.9833 0.527344 11.0215 0.565523 11.0215 0.612457V0.994008H4.92187C4.58096 0.994008 4.58096 1.52135 4.92187 1.52135H11.9302C11.977 1.52135 12.0152 1.55953 12.0152 1.60646V1.93567H2.59868C2.26104 1.93567 1.98633 2.21041 1.98633 2.54812V16.5326L1.60597 16.531ZM2.51367 17.3875V2.54809C2.51367 2.50116 2.55182 2.46298 2.59868 2.46298H12.9228C12.9697 2.46298 13.0078 2.50116 13.0078 2.54809V4.04641C12.1157 4.17811 11.257 4.58638 10.5718 5.27157C8.8754 6.96793 8.8754 9.72812 10.5718 11.4245C11.239 12.0917 12.0801 12.5145 13.0078 12.6517V15.0251H11.1837C10.8461 15.0251 10.5714 15.2999 10.5714 15.6376V17.4727H2.59868C2.55182 17.4727 2.51367 17.4345 2.51367 17.3875ZM11.0987 17.0977V15.6376C11.0987 15.5907 11.1369 15.5525 11.1837 15.5525H12.6369L11.0987 17.0977ZM14.0162 8.17274L15.4537 4.9776C15.7766 5.15032 16.0798 5.37247 16.3518 5.64444C17.2759 6.56863 17.6307 7.86294 17.4013 9.06978L14.0162 8.17274Z"
+                                            fill="#63747B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_3884_28960">
+                                            <rect width="18" height="18" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="mx-1 text-[12px] pt-[7px] pb-[5px] leading-none">রিপোর্ট</span>
+                        </a>
+                    </div>
+                </nav>
+
+                <div class="p-4 my-2 w-full block md:hidden">
+                    <div
+                        class="justify-center items-center border border-gray-200 rounded px-2 py-1 bg-white relative h-10 flex">
+                        <button
+                            class="flex text-[#63747B] focus:outline-none h-4 w-6 cursor-pointer items-center justify-center">
+                            <i class="fa-solid text-[14px] fa-magnifying-glass"></i>
+                        </button>
+                        <input class="ml-2 w-[200px] text-[13px] text-[#63747B] outline-none focus:outline-none:focus"
+                            type="search" placeholder="Search..">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header id="siteHeader" class="bg-white border-b border-[#EBEEF2] relative z-50">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center py-2 h-[58px]">
+                    <div class="flex items-center">
+                        <button
+                            class="smtSidebarNavBtn mr-2 text-center text-gray-500 w-6 h-6 p-1 pl-0 focus:outline-none lg:hidden">
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 6H20M4 12H20M4 18H11" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                        <a href="index.html" class="flex items-center">
+                            <img class="w-[160px] w-max-[100%]" src="./assets/images/logo-smart-mutation.svg" alt="Logo"
+                                width="160">
+                        </a>
+                    </div>
+
+                    <div class="flex items-center">
+                        <div
+                            class="justify-center items-center border border-gray-200 rounded-sm p-2 bg-white relative h-10 hidden md:flex">
+                            <input
+                                class="search-input w-[140px] lg:w-[200px] text-sm text-gray-500 outline-none focus:outline-none:focus"
+                                type="search" autocomplete="off" spellcheck="false" placeholder="Search..">
+                            <button
+                                class="search-icon flex text-gray-600 focus:outline-none h-6 w-6 cursor-pointer items-center justify-center">
+                                <i class="fa-solid text-[14px] fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+
+                        <div class="relative hidden lg:block">
+                            <button
+                                class="flex ml-2 text-gray-600 focus:outline-none h-10 w-10 border border-gray-200 rounded-sm p-1 cursor-pointer items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_7203_23369)">
+                                        <path
+                                            d="M15.8693 20.0456H14.1988C13.9773 20.0456 13.7648 19.9576 13.6082 19.801C13.4516 19.6444 13.3636 19.4319 13.3636 19.2104C13.3636 18.9889 13.4516 18.7764 13.6082 18.6198C13.7648 18.4632 13.9773 18.3752 14.1988 18.3752H15.8693C16.5338 18.3752 17.1711 18.1112 17.6411 17.6413C18.111 17.1714 18.375 16.534 18.375 15.8695V14.199C18.375 13.9775 18.463 13.765 18.6196 13.6084C18.7762 13.4518 18.9887 13.3638 19.2102 13.3638C19.4317 13.3638 19.6442 13.4518 19.8008 13.6084C19.9574 13.765 20.0454 13.9775 20.0454 14.199V15.8695C20.0441 16.9767 19.6037 18.0381 18.8208 18.821C18.0379 19.6039 16.9764 20.0443 15.8693 20.0456Z"
+                                            fill="#42526D" />
+                                        <path
+                                            d="M0.835236 6.68189C0.613717 6.68189 0.401272 6.59389 0.244635 6.43725C0.0879978 6.28061 0 6.06817 0 5.84665V4.17618C0.00132624 3.06899 0.441741 2.00754 1.22464 1.22464C2.00754 0.441741 3.06899 0.00132624 4.17618 0L5.84665 0C6.06817 0 6.28061 0.0879978 6.43725 0.244635C6.59389 0.401272 6.68189 0.613717 6.68189 0.835236C6.68189 1.05675 6.59389 1.2692 6.43725 1.42584C6.28061 1.58247 6.06817 1.67047 5.84665 1.67047H4.17618C3.51162 1.67047 2.87429 1.93446 2.40438 2.40438C1.93446 2.87429 1.67047 3.51162 1.67047 4.17618V5.84665C1.67047 6.06817 1.58247 6.28061 1.42584 6.43725C1.2692 6.59389 1.05675 6.68189 0.835236 6.68189Z"
+                                            fill="#42526D" />
+                                        <path
+                                            d="M5.84665 20.0456H4.17618C3.06899 20.0443 2.00754 19.6039 1.22464 18.821C0.441741 18.0381 0.00132624 16.9767 0 15.8695L0 14.199C0 13.9775 0.0879978 13.765 0.244635 13.6084C0.401272 13.4518 0.613717 13.3638 0.835236 13.3638C1.05675 13.3638 1.2692 13.4518 1.42584 13.6084C1.58247 13.765 1.67047 13.9775 1.67047 14.199V15.8695C1.67047 16.534 1.93446 17.1714 2.40438 17.6413C2.87429 18.1112 3.51162 18.3752 4.17618 18.3752H5.84665C6.06817 18.3752 6.28061 18.4632 6.43725 18.6198C6.59389 18.7764 6.68189 18.9889 6.68189 19.2104C6.68189 19.4319 6.59389 19.6444 6.43725 19.801C6.28061 19.9576 6.06817 20.0456 5.84665 20.0456Z"
+                                            fill="#42526D" />
+                                        <path
+                                            d="M19.2102 6.68189C18.9887 6.68189 18.7762 6.59389 18.6196 6.43725C18.463 6.28061 18.375 6.06817 18.375 5.84665V4.17618C18.375 3.51162 18.111 2.87429 17.6411 2.40438C17.1711 1.93446 16.5338 1.67047 15.8693 1.67047H14.1988C13.9773 1.67047 13.7648 1.58247 13.6082 1.42584C13.4516 1.2692 13.3636 1.05675 13.3636 0.835236C13.3636 0.613717 13.4516 0.401272 13.6082 0.244635C13.7648 0.0879978 13.9773 0 14.1988 0L15.8693 0C16.9764 0.00132624 18.0379 0.441741 18.8208 1.22464C19.6037 2.00754 20.0441 3.06899 20.0454 4.17618V5.84665C20.0454 6.06817 19.9574 6.28061 19.8008 6.43725C19.6442 6.59389 19.4317 6.68189 19.2102 6.68189Z"
+                                            fill="#42526D" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_7203_23369">
+                                            <rect width="20.0457" height="20.0457" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div x-data="{ notificationOpen: false }" class="relative hidden sm:block">
+                            <button @click="notificationOpen = ! notificationOpen"
+                                class="flex mx-2 text-gray-600 focus:outline-none h-10 w-10 border border-gray-200 rounded-sm p-1 cursor-pointer items-center justify-center">
+                                <i class="fa-regular text-[14px] fa-bell"></i>
+                            </button>
+
+                            <div x-show="notificationOpen" @click="notificationOpen = false"
+                                class="fixed inset-0 h-full w-full z-10" style="display: none;"></div>
+
+                            <div x-show="notificationOpen"
+                                class="absolute right-0 mt-2 w-[170px] bg-white rounded-lg shadow-xl overflow-hidden z-30 align-items-center"
+                                style="display: none;">
+                                <ul>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Notification
+                                                One</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Notification
+                                                Two</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Notification
+                                                Three</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Notification
+                                                Four</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div x-data="{ dropdownOpen: false }" class="relative">
+                            <div @click="dropdownOpen = ! dropdownOpen"
+                                class="flex gap-2 items-center border h-10 border-gray-200 rounded-sm py-1 px-3 cursor-pointer">
+                                <button
+                                    class="relative block h-6 w-6 rounded-full overflow-hidden shadow focus:outline-none">
+                                    <img class="h-full w-full object-cover"
+                                        src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=296&amp;q=80"
+                                        alt="Your avatar">
+                                </button>
+                                <div class="relative mr-2">
+                                    <h3 class="text-[12px] leading-tight text-gray-700">Ashrafuzzaman</h3>
+                                    <p class="text-[10px] leading-tight text-gray-400">AC Land</p>
+                                </div>
+
+                                <i class="fa-solid text-[10px] fa-chevron-down d-block"></i>
+                            </div>
+
+                            <div x-show="dropdownOpen" @click="dropdownOpen = false"
+                                class="fixed inset-0 h-full w-full z-10" style="display: none;"></div>
+
+                            <div x-show="dropdownOpen"
+                                class="absolute right-0 mt-2 w-[160px] bg-white rounded-md overflow-hidden shadow-xl z-10"
+                                style="display: none;">
+                                <ul>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Account</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="#">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Settings</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center py-[10px] px-[20px]"
+                                            href="/login">
+                                            <span class="block text-left text-[12px] 2xl:text-[13px]">Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="site-navigation bg-white shadow-md border-b border-[#EBEEF2] hidden lg:block relative z-40">
+            <div class="container mx-auto">
+                <nav class="w-full relative">
+                    <ul class="w-full flex gap-[1px] items-center justify-start">
+                        <li>
+                            <a class="menu-item smt-transition" href="v2-dashboard.html">
+                                <span class="smt-menu-icon stroke h-[20px] w-[20px] flex items-center text-center">
+                                    <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.25 4.875C2.25 2.90609 2.27108 2.25 4.875 2.25C7.47892 2.25 7.5 2.90609 7.5 4.875C7.5 6.84391 7.5083 7.5 4.875 7.5C2.2417 7.5 2.25 6.84391 2.25 4.875Z"
+                                            stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.5 4.875C10.5 2.90609 10.5211 2.25 13.125 2.25C15.7289 2.25 15.75 2.90609 15.75 4.875C15.75 6.84391 15.7583 7.5 13.125 7.5C10.4917 7.5 10.5 6.84391 10.5 4.875Z"
+                                            stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.25 13.125C2.25 11.1561 2.27108 10.5 4.875 10.5C7.47892 10.5 7.5 11.1561 7.5 13.125C7.5 15.0939 7.5083 15.75 4.875 15.75C2.2417 15.75 2.25 15.0939 2.25 13.125Z"
+                                            stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.5 13.125C10.5 11.1561 10.5211 10.5 13.125 10.5C15.7289 10.5 15.75 11.1561 15.75 13.125C15.75 15.0939 15.7583 15.75 13.125 15.75C10.4917 15.75 10.5 15.0939 10.5 13.125Z"
+                                            stroke="#63747B" stroke-width="1.125" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <span
+                                    class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">ড্যাশবোর্ড</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="current-menu menu-item smt-transition" href="v2-namjari-application.html">
+                                <span class="smt-menu-icon fill h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 12 14"
+                                        fill="none">
+                                        <path
+                                            d="M11.2119 3.40134L7.93069 0.120176C7.8541 0.0435586 7.74956 0 7.64062 0H1.89844C1.21996 0 0.667969 0.551988 0.667969 1.23047V12.7695C0.667969 13.448 1.21996 14 1.89844 14H10.1016C10.78 14 11.332 13.448 11.332 12.7695V3.69141C11.332 3.57957 11.2851 3.47454 11.2119 3.40134ZM8.05078 1.40036L9.93167 3.28125H8.46094C8.23478 3.28125 8.05078 3.09725 8.05078 2.87109V1.40036ZM10.1016 13.1797H1.89844C1.67228 13.1797 1.48828 12.9957 1.48828 12.7695V1.23047C1.48828 1.00431 1.67228 0.820312 1.89844 0.820312H7.23047V2.87109C7.23047 3.54957 7.78246 4.10156 8.46094 4.10156H10.5117V12.7695C10.5117 12.9957 10.3277 13.1797 10.1016 13.1797Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 5.79688H3.53906C3.31255 5.79688 3.12891 5.98052 3.12891 6.20703C3.12891 6.43355 3.31255 6.61719 3.53906 6.61719H8.46094C8.68745 6.61719 8.87109 6.43355 8.87109 6.20703C8.87109 5.98052 8.68745 5.79688 8.46094 5.79688Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 7.4375H3.53906C3.31255 7.4375 3.12891 7.62114 3.12891 7.84766C3.12891 8.07417 3.31255 8.25781 3.53906 8.25781H8.46094C8.68745 8.25781 8.87109 8.07417 8.87109 7.84766C8.87109 7.62114 8.68745 7.4375 8.46094 7.4375Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 9.07812H3.53906C3.31255 9.07812 3.12891 9.26177 3.12891 9.48828C3.12891 9.7148 3.31255 9.89844 3.53906 9.89844H8.46094C8.68745 9.89844 8.87109 9.7148 8.87109 9.48828C8.87109 9.26177 8.68745 9.07812 8.46094 9.07812Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M6.82031 10.7188H3.53906C3.31255 10.7188 3.12891 10.9024 3.12891 11.1289C3.12891 11.3554 3.31255 11.5391 3.53906 11.5391H6.82031C7.04683 11.5391 7.23047 11.3554 7.23047 11.1289C7.23047 10.9024 7.04683 10.7188 6.82031 10.7188Z"
+                                            fill="#505F79" />
+                                    </svg>
+                                </span>
+                                <span class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">নামজারির
+                                    আবেদনসমূহ</span>
+                            </a>
+                        </li>
+                        <li class="relative z-10" x-data="{ open: false }" @mouseenter="open = true"
+                            @mouseleave="open = false">
+                            <a class="menu-item smt-transition" href="#" :aria-expanded="open">
+                                <span class="smt-menu-icon fill h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 12 14"
+                                        fill="none">
+                                        <path
+                                            d="M11.2119 3.40134L7.93069 0.120176C7.8541 0.0435586 7.74956 0 7.64062 0H1.89844C1.21996 0 0.667969 0.551988 0.667969 1.23047V12.7695C0.667969 13.448 1.21996 14 1.89844 14H10.1016C10.78 14 11.332 13.448 11.332 12.7695V3.69141C11.332 3.57957 11.2851 3.47454 11.2119 3.40134ZM8.05078 1.40036L9.93167 3.28125H8.46094C8.23478 3.28125 8.05078 3.09725 8.05078 2.87109V1.40036ZM10.1016 13.1797H1.89844C1.67228 13.1797 1.48828 12.9957 1.48828 12.7695V1.23047C1.48828 1.00431 1.67228 0.820312 1.89844 0.820312H7.23047V2.87109C7.23047 3.54957 7.78246 4.10156 8.46094 4.10156H10.5117V12.7695C10.5117 12.9957 10.3277 13.1797 10.1016 13.1797Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 5.79688H3.53906C3.31255 5.79688 3.12891 5.98052 3.12891 6.20703C3.12891 6.43355 3.31255 6.61719 3.53906 6.61719H8.46094C8.68745 6.61719 8.87109 6.43355 8.87109 6.20703C8.87109 5.98052 8.68745 5.79688 8.46094 5.79688Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 7.4375H3.53906C3.31255 7.4375 3.12891 7.62114 3.12891 7.84766C3.12891 8.07417 3.31255 8.25781 3.53906 8.25781H8.46094C8.68745 8.25781 8.87109 8.07417 8.87109 7.84766C8.87109 7.62114 8.68745 7.4375 8.46094 7.4375Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M8.46094 9.07812H3.53906C3.31255 9.07812 3.12891 9.26177 3.12891 9.48828C3.12891 9.7148 3.31255 9.89844 3.53906 9.89844H8.46094C8.68745 9.89844 8.87109 9.7148 8.87109 9.48828C8.87109 9.26177 8.68745 9.07812 8.46094 9.07812Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M6.82031 10.7188H3.53906C3.31255 10.7188 3.12891 10.9024 3.12891 11.1289C3.12891 11.3554 3.31255 11.5391 3.53906 11.5391H6.82031C7.04683 11.5391 7.23047 11.3554 7.23047 11.1289C7.23047 10.9024 7.04683 10.7188 6.82031 10.7188Z"
+                                            fill="#505F79" />
+                                    </svg>
+                                </span>
+                                <span class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">খতিয়ান
+                                    সংশোধন</span>
+                                <span class="menu-icon shrink-0 p-1" :aria-expanded="open"
+                                    @click.prevent="open = !open">
+                                    <svg class="w-3 h-3 fill-slate-500" xmlns="http://www.w3.org/2000/svg" width="12"
+                                        height="12">
+                                        <path d="M10 2.586 11.414 4 6 9.414.586 4 2 2.586l4 4z" />
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <ul class="origin-top-right z-50 absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white border border-slate-200 p-2 rounded-lg shadow-xl [&[x-cloak]]:hidden"
+                                x-show="open" x-transition:enter="transition ease-out duration-200 transform"
+                                x-transition:enter-start="opacity-0 -translate-y-2"
+                                x-transition:enter-end="opacity-100 translate-y-0"
+                                x-transition:leave="transition ease-out duration-200"
+                                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak
+                                @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">খাস খতিয়ান</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">জমির শ্রেণী</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">করণিক ভুল</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="relative z-50" x-data="{ open: false }" @mouseenter="open = true"
+                            @mouseleave="open = false">
+                            <a class="menu-item smt-transition" href="#" :aria-expanded="open">
+                                <span class="smt-menu-icon stroke h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <mask id="mask0_7203_23427" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+                                            <path d="M0 -4.76837e-06H14V14H0V-4.76837e-06Z" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_7203_23427)">
+                                            <path
+                                                d="M0.273438 12.5661V13.7266H10.2799V10.1563L9.87331 10.7888L8.19 11.9897L8.58378 9.95974L10.2799 7.32129V0.273432H0.273438V10.1598"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M13.3811 5.33338L9.87408 10.7891L8.58441 9.96008L12.0915 4.50437L13.3811 5.33338Z"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <path d="M8.58462 9.95969L8.19098 11.9897L9.87429 10.7887L8.58462 9.95969Z"
+                                            stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <mask id="mask1_7203_23427" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+                                            <path d="M0 -4.76837e-06H14V14H0V-4.76837e-06Z" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask1_7203_23427)">
+                                            <path
+                                                d="M13.609 4.98508L13.3847 5.33398L12.095 4.50495L12.3193 4.15607C12.5482 3.79994 13.0225 3.69683 13.3786 3.92575C13.7348 4.15468 13.8379 4.62895 13.609 4.98508Z"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M4.75629 11.9902C5.04629 11.4688 5.4515 11.0063 5.94921 10.6745C6.14374 10.5448 6.45947 10.3619 6.68665 10.5179C6.83078 10.6169 6.89594 10.7903 6.91417 10.958C6.94978 11.2848 6.96298 11.5314 6.9189 11.9902C7.07892 11.6557 7.41992 11.3033 7.79768 11.2326C7.98662 11.1973 8.17111 11.2775 8.21024 11.4804C8.23455 11.6063 8.19526 11.9902 8.19526 11.9902"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.13594 5.01123H2.09332V1.55725H5.13594V5.01123Z" stroke="#505F79"
+                                                stroke-width="0.703125" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M6.69922 2.10107H8.70557" stroke="#505F79" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6.69922 3.30273H8.70557" stroke="#505F79" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6.69922 4.50439H8.70557" stroke="#505F79" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.70535 7.64307H2.14575V6.29759H8.70535V7.64307Z" stroke="#505F79"
+                                                stroke-width="0.703125" stroke-miterlimit="10" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M2.24219 8.9917H6.01379" stroke="#505F79" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M2.24219 10.1377H4.01803" stroke="#505F79" stroke-width="0.703125"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M4.2638 3.0197C4.2638 3.37828 3.97311 3.66895 3.61452 3.66895C3.25596 3.66895 2.96527 3.37828 2.96527 3.0197C2.96527 2.66114 3.25596 2.37044 3.61452 2.37044C3.97311 2.37044 4.2638 2.66114 4.2638 3.0197Z"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3.61617 3.66917C3.61617 3.66917 2.09485 3.6129 2.09485 5.01123H3.61617H5.13747C5.13747 3.61448 3.61617 3.66917 3.61617 3.66917Z"
+                                                stroke="#505F79" stroke-width="0.703125" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span
+                                    class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">রেজিস্টারসমূহ</span>
+                                <span class="menu-icon shrink-0 p-1" :aria-expanded="open"
+                                    @click.prevent="open = !open">
+                                    <svg class="w-3 h-3 fill-slate-500" xmlns="http://www.w3.org/2000/svg" width="12"
+                                        height="12">
+                                        <path d="M10 2.586 11.414 4 6 9.414.586 4 2 2.586l4 4z" />
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <ul class="origin-top-right z-50 absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white border border-slate-200 p-2 rounded-lg shadow-xl [&[x-cloak]]:hidden"
+                                x-show="open" x-transition:enter="transition ease-out duration-200 transform"
+                                x-transition:enter-start="opacity-0 -translate-y-2"
+                                x-transition:enter-end="opacity-100 translate-y-0"
+                                x-transition:leave="transition ease-out duration-200"
+                                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak
+                                @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">রেজিস্টার-৯ পার্ট
+                                            ১</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">রেজিস্টার-৯ পার্ট
+                                            ২</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg class="fill-[#18662A]" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                height="14" viewBox="0 0 14 14" fill="none">
+                                                <g clip-path="url(#clip0_7203_90)">
+                                                    <path
+                                                        d="M9.91699 8.16668C9.91699 8.32139 9.85553 8.46976 9.74614 8.57916C9.63674 8.68855 9.48837 8.75001 9.33366 8.75001H4.66699C4.51228 8.75001 4.36391 8.68855 4.25451 8.57916C4.14512 8.46976 4.08366 8.32139 4.08366 8.16668C4.08366 8.01197 4.14512 7.8636 4.25451 7.7542C4.36391 7.6448 4.51228 7.58335 4.66699 7.58335H9.33366C9.48837 7.58335 9.63674 7.6448 9.74614 7.7542C9.85553 7.8636 9.91699 8.01197 9.91699 8.16668ZM7.58366 9.91668H4.66699C4.51228 9.91668 4.36391 9.97814 4.25451 10.0875C4.14512 10.1969 4.08366 10.3453 4.08366 10.5C4.08366 10.6547 4.14512 10.8031 4.25451 10.9125C4.36391 11.0219 4.51228 11.0833 4.66699 11.0833H7.58366C7.73837 11.0833 7.88674 11.0219 7.99614 10.9125C8.10553 10.8031 8.16699 10.6547 8.16699 10.5C8.16699 10.3453 8.10553 10.1969 7.99614 10.0875C7.88674 9.97814 7.73837 9.91668 7.58366 9.91668ZM12.8337 6.11626V11.0833C12.8327 11.8566 12.5251 12.5979 11.9784 13.1447C11.4316 13.6915 10.6903 13.9991 9.91699 14H4.08366C3.3104 13.9991 2.56907 13.6915 2.02229 13.1447C1.47551 12.5979 1.16792 11.8566 1.16699 11.0833V2.91668C1.16792 2.14342 1.47551 1.40209 2.02229 0.855308C2.56907 0.308528 3.3104 0.000939695 4.08366 1.34451e-05H6.71741C7.25385 -0.00136726 7.78525 0.103606 8.28087 0.308865C8.7765 0.514123 9.22651 0.815594 9.60491 1.19585L11.6372 3.22935C12.0177 3.60749 12.3194 4.05736 12.5247 4.55292C12.7301 5.04847 12.8351 5.57984 12.8337 6.11626ZM8.78008 2.02068C8.59649 1.84286 8.39037 1.68989 8.16699 1.56568V4.08335C8.16699 4.23806 8.22845 4.38643 8.33785 4.49583C8.44724 4.60522 8.59562 4.66668 8.75033 4.66668H11.268C11.1437 4.44337 10.9905 4.23743 10.8124 4.05418L8.78008 2.02068ZM11.667 6.11626C11.667 6.02001 11.6483 5.92785 11.6396 5.83335H8.75033C8.2862 5.83335 7.84108 5.64897 7.51289 5.32078C7.1847 4.99259 7.00033 4.54748 7.00033 4.08335V1.1941C6.90583 1.18535 6.81308 1.16668 6.71741 1.16668H4.08366C3.61953 1.16668 3.17441 1.35105 2.84622 1.67924C2.51803 2.00743 2.33366 2.45255 2.33366 2.91668V11.0833C2.33366 11.5475 2.51803 11.9926 2.84622 12.3208C3.17441 12.649 3.61953 12.8333 4.08366 12.8333H9.91699C10.3811 12.8333 10.8262 12.649 11.1544 12.3208C11.4826 11.9926 11.667 11.5475 11.667 11.0833V6.11626Z"
+                                                        fill="#374957" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_7203_90">
+                                                        <rect width="14" height="14" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">রেজিস্টার-১ পার্ট
+                                            ১</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="menu-item smt-transition" href="#">
+                                <span class="smt-menu-icon fill h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 13 14"
+                                        fill="none">
+                                        <path
+                                            d="M9.52205 13.9097H3.40743C3.28451 13.9097 3.18488 14.0093 3.18488 14.1322C3.18488 14.2551 3.28451 14.3548 3.40743 14.3548H9.52205C9.64497 14.3548 9.7446 14.2551 9.7446 14.1322C9.7446 14.0093 9.64497 13.9097 9.52205 13.9097Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M2.42775 13.9097C2.30484 13.9097 2.2052 14.0093 2.2052 14.1322C2.2052 14.2551 2.30484 14.3548 2.42775 14.3548H2.67196C2.79487 14.3548 2.89451 14.2551 2.89451 14.1322C2.89451 14.0093 2.79487 13.9097 2.67196 13.9097H2.42775Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M10.4997 13.9097H10.2555C10.1326 13.9097 10.033 14.0093 10.033 14.1322C10.033 14.2551 10.1326 14.3548 10.2555 14.3548H10.4997C10.6226 14.3548 10.7223 14.2551 10.7223 14.1322C10.722 14.0093 10.6224 13.9097 10.4997 13.9097Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M10.6095 0.354492H1.94907C1.82615 0.354492 1.72652 0.45413 1.72652 0.577048V3.36691H0.998562C0.55136 3.36691 0.1875 3.73078 0.1875 4.17775V10.4333C0.1875 10.8805 0.55136 11.2444 0.998562 11.2444H5.37373C5.36023 11.5437 5.20868 12.1313 4.03981 13.0395C3.96485 13.0979 3.93505 13.1976 3.96601 13.2874C3.99674 13.3773 4.08148 13.4378 4.17646 13.4378H6.44413H6.50675H8.77442C8.868 13.4378 8.95158 13.3791 8.98347 13.2911C9.01536 13.2031 8.98882 13.1047 8.91689 13.0446C7.85487 12.1572 7.63721 11.5638 7.59228 11.2446H11.5601C12.0073 11.2446 12.3711 10.8807 12.3711 10.4335V4.17775C12.3711 3.73078 12.0073 3.36691 11.5601 3.36691H10.8321V0.577048C10.8321 0.45413 10.7325 0.354492 10.6095 0.354492ZM2.17162 0.799604H10.387V9.69905H2.17162V0.799604ZM0.998562 3.81202H1.72652V9.71953H0.632606V4.17775C0.632606 3.97615 0.796727 3.81202 0.998562 3.81202ZM8.20546 12.9927H6.50675H6.44413H4.77312C5.66892 12.1234 5.8051 11.5817 5.81767 11.2444H7.14321C7.17604 11.5659 7.34598 12.1122 8.20546 12.9927ZM11.5601 10.7993H0.998562C0.796727 10.7993 0.632606 10.6351 0.632606 10.4333V10.1644H11.926V10.4333C11.926 10.6351 11.7619 10.7993 11.5601 10.7993ZM11.5601 3.81202C11.7619 3.81202 11.926 3.97615 11.926 4.17775V9.71953H10.8321V3.81202H11.5601Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M3.485 6.78496H9.07234C9.19526 6.78496 9.2949 6.68532 9.2949 6.5624C9.2949 6.43948 9.19526 6.33984 9.07234 6.33984H3.485C3.36209 6.33984 3.26245 6.43948 3.26245 6.5624C3.26268 6.68532 3.36232 6.78496 3.485 6.78496Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M7.60584 7.35498H4.9529C4.82998 7.35498 4.73035 7.45462 4.73035 7.57754C4.73035 7.70045 4.82998 7.80009 4.9529 7.80009H7.60584C7.72876 7.80009 7.8284 7.70045 7.8284 7.57754C7.8284 7.45462 7.72876 7.35498 7.60584 7.35498Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M6.71598 8.30566H5.84206C5.71914 8.30566 5.61951 8.4053 5.61951 8.52822C5.61951 8.65114 5.71914 8.75078 5.84206 8.75078H6.71598C6.83889 8.75078 6.93853 8.65114 6.93853 8.52822C6.93853 8.40507 6.83889 8.30566 6.71598 8.30566Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M6.06477 5.35676C6.88258 5.35676 7.61217 4.83786 7.88012 4.06589C7.92039 3.94973 7.85893 3.82285 7.74277 3.78281C7.6266 3.74184 7.49996 3.80399 7.45969 3.91993C7.40335 4.08242 7.31838 4.22839 7.21478 4.35759C6.9196 4.02492 6.50569 3.83053 6.06431 3.83053C5.62129 3.83053 5.20901 4.02539 4.91406 4.35829C4.71083 4.10547 4.58861 3.78491 4.58861 3.43594C4.58861 2.62184 5.25092 1.95976 6.06477 1.95976C6.5271 1.95976 6.95405 2.17021 7.23643 2.5378C7.31139 2.63511 7.45107 2.6535 7.54838 2.57854C7.64592 2.50358 7.66408 2.36413 7.58912 2.26659C7.222 1.78865 6.66632 1.51465 6.06477 1.51465C5.00555 1.51465 4.14374 2.37647 4.14374 3.43571C4.14374 4.49494 5.00555 5.35676 6.06477 5.35676ZM6.06431 4.23072C6.39464 4.23072 6.70543 4.37947 6.92588 4.63369C6.68052 4.80992 6.38137 4.91142 6.06477 4.91142C5.74375 4.91142 5.44716 4.80736 5.20459 4.63253C5.42481 4.37901 5.7335 4.23072 6.06431 4.23072Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M5.42737 2.87471C5.42737 3.21622 5.69997 3.59825 6.06453 3.59825C6.42932 3.59825 6.70169 3.21622 6.70169 2.87471C6.70169 2.52341 6.41582 2.2373 6.06453 2.2373C5.71324 2.2373 5.42737 2.52341 5.42737 2.87471ZM6.30128 2.87471C6.30128 3.0258 6.17511 3.1976 6.06453 3.1976C5.95395 3.1976 5.82778 3.0258 5.82778 2.87471C5.82778 2.74411 5.93393 2.63818 6.06453 2.63818C6.19513 2.63818 6.30128 2.74411 6.30128 2.87471Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M7.31701 2.85784C7.22227 2.78032 7.08189 2.79405 7.0039 2.8888C6.92592 2.98378 6.93988 3.12393 7.03487 3.20192L7.41106 3.51037C7.45227 3.54436 7.50232 3.56089 7.55191 3.56089C7.61616 3.56089 7.68018 3.53319 7.72394 3.47941L8.3632 2.70023C8.44119 2.60525 8.42722 2.46511 8.33224 2.38712C8.23749 2.3096 8.09711 2.32333 8.01913 2.41808L7.52094 3.02522L7.31701 2.85784Z"
+                                            fill="#505F79" />
+                                    </svg>
+                                </span>
+                                <span class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">ডিসিআর
+                                    প্রদান</span>
+                            </a>
+                        </li>
+
+                        <li class="relative z-50" x-data="{ open: false }" @mouseenter="open = true"
+                            @mouseleave="open = false">
+                            <a class="menu-item smt-transition" href="#" :aria-expanded="open">
+                                <span class="smt-menu-icon fill h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"
+                                            fill="#505F79" />
+                                    </svg>
+                                </span>
+                                <span
+                                    class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">ব্যবস্থাপনা</span>
+                                <span class="menu-icon shrink-0 p-1" :aria-expanded="open"
+                                    @click.prevent="open = !open">
+                                    <svg class="w-3 h-3 fill-slate-500" xmlns="http://www.w3.org/2000/svg" width="12"
+                                        height="12">
+                                        <path d="M10 2.586 11.414 4 6 9.414.586 4 2 2.586l4 4z" />
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <ul class="origin-top-right z-50 absolute top-full left-1/2 -translate-x-1/2 min-w-[240px] bg-white border border-slate-200 p-2 rounded-lg shadow-xl [&[x-cloak]]:hidden"
+                                x-show="open" x-transition:enter="transition ease-out duration-200 transform"
+                                x-transition:enter-start="opacity-0 -translate-y-2"
+                                x-transition:enter-end="opacity-100 translate-y-0"
+                                x-transition:leave="transition ease-out duration-200"
+                                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak
+                                @focusout="await $nextTick();!$el.contains($focus.focused()) && (open = false)">
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4.66667 5.25024C4.66667 4.63137 4.9125 4.03785 5.35008 3.60024C5.78767 3.16264 6.38116 2.91679 7 2.91679C7.61884 2.91679 8.21233 3.16264 8.64992 3.60024C9.0875 4.03785 9.33333 4.63137 9.33333 5.25024C9.33333 5.86911 9.0875 6.46263 8.64992 6.90023C8.21233 7.33784 7.61884 7.58369 7 7.58369C6.38116 7.58369 5.78767 7.33784 5.35008 6.90023C4.9125 6.46263 4.66667 5.86911 4.66667 5.25024ZM9.23067 7.94712C9.78572 7.48793 10.1856 6.86865 10.3757 6.1738C10.5657 5.47894 10.5368 4.74235 10.2928 4.06455C10.0488 3.38674 9.60159 2.80074 9.01223 2.38651C8.42287 1.97228 7.72006 1.75 6.99971 1.75C6.27935 1.75 5.57654 1.97228 4.98718 2.38651C4.39782 2.80074 3.95063 3.38674 3.70662 4.06455C3.46261 4.74235 3.43368 5.47894 3.62376 6.1738C3.81385 6.86865 4.2137 7.48793 4.76875 7.94712C2.9085 8.60223 1.75 10.0612 1.75 11.6672C1.75 11.8219 1.81146 11.9703 1.92085 12.0797C2.03025 12.1891 2.17862 12.2506 2.33333 12.2506C2.48804 12.2506 2.63642 12.1891 2.74581 12.0797C2.85521 11.9703 2.91667 11.8219 2.91667 11.6672C2.91667 10.343 4.29042 8.75041 7 8.75041C9.70958 8.75041 11.0833 10.343 11.0833 11.6672C11.0833 11.8219 11.1448 11.9703 11.2542 12.0797C11.3636 12.1891 11.512 12.2506 11.6667 12.2506C11.8214 12.2506 11.9697 12.1891 12.0791 12.0797C12.1885 11.9703 12.25 11.8219 12.25 11.6672C12.25 10.0612 11.0927 8.60223 9.23067 7.94712Z"
+                                                    fill="#505F79" />
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">ইউজার</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path d="M2.03906 13.4484V10.9683H4.51921" stroke="#505F79"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.3384 5.81494C13.9555 9.09663 11.9473 12.3501 8.66849 13.2286C6.15902 13.901 3.59852 12.9965 2.03906 11.1225"
+                                                    stroke="#505F79" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M0.660901 8.18478C0.0437973 4.9031 2.05205 1.64968 5.33084 0.771129C7.84014 0.0987638 10.4005 1.0031 11.96 2.87684"
+                                                    stroke="#505F79" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.9602 0.55127V3.03142H9.47998" stroke="#505F79"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M7 6.5C7.69036 6.5 8.25 5.94036 8.25 5.25C8.25 4.55964 7.69036 4 7 4C6.30964 4 5.75 4.55964 5.75 5.25C5.75 5.94036 6.30964 6.5 7 6.5Z"
+                                                    stroke="#505F79" />
+                                                <path
+                                                    d="M4.70801 9.5C5.09379 8.61705 5.97483 8 6.99999 8C8.02515 8 8.90619 8.61705 9.29196 9.5"
+                                                    stroke="#505F79" stroke-linecap="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">ইউজার রোল</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-800 rounded smt-transition hover:bg-[#EAF6EC] hover:text-[#18662A] flex items-center p-2"
+                                        href="#">
+                                        <div
+                                            class="flex items-center justify-center bg-white border border-slate-200 rounded shadow-sm h-7 w-7 shrink-0 mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 14 14" fill="none">
+                                                <path
+                                                    d="M11.0833 12.25V2.91667C11.0833 2.27233 10.561 1.75 9.91667 1.75H4.08333C3.439 1.75 2.91667 2.27233 2.91667 2.91667V12.25M11.0833 12.25L12.25 12.25M11.0833 12.25H8.16667M2.91667 12.25L1.75 12.25M2.91667 12.25H5.83333M5.25 4.08332H5.83333M5.25 6.41665H5.83333M8.16667 4.08332H8.75M8.16667 6.41665H8.75M5.83333 12.25V9.33332C5.83333 9.01115 6.0945 8.74999 6.41667 8.74999H7.58333C7.9055 8.74999 8.16667 9.01115 8.16667 9.33332V12.25M5.83333 12.25H8.16667"
+                                                    stroke="#505F79" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="block text-left text-[12px] 2xl:text-[13px]">অফিস</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="menu-item smt-transition" href="#">
+                                <span class="smt-menu-icon fill h-[20px] w-[20px] flex items-center text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <path
+                                            d="M3.32295 3.78955H7.34688C7.61203 3.78955 7.61203 3.37939 7.34688 3.37939H3.32295C3.0578 3.37939 3.0578 3.78955 3.32295 3.78955Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M3.32295 5.29443H6.4172C6.68235 5.29443 6.68235 4.88428 6.4172 4.88428H3.32295C3.0578 4.88428 3.0578 5.29443 3.32295 5.29443Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M3.32295 6.79883H5.97969C6.24485 6.79883 6.24485 6.38867 5.97969 6.38867H3.32295C3.0578 6.38867 3.0578 6.79883 3.32295 6.79883Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M7.1003 11.8229H6.96442V9.81862C6.96442 9.70536 6.87263 9.61354 6.75935 9.61354H5.93635V8.89062C5.93635 8.77737 5.84456 8.68555 5.73128 8.68555H4.70569C4.59241 8.68555 4.50062 8.77737 4.50062 8.89062V10.1385H3.67924C3.56595 10.1385 3.47416 10.2303 3.47416 10.3436V11.8229H3.33829C3.225 11.8229 3.13321 11.9147 3.13321 12.028C3.13321 12.1412 3.225 12.233 3.33829 12.233H7.10027C7.21355 12.233 7.30535 12.1412 7.30535 12.028C7.30535 11.9147 7.21355 11.8229 7.1003 11.8229ZM3.88434 11.8229V10.5487H4.4998V11.8229H3.88434ZM4.9108 11.8229V9.0957H5.52623V11.8229H4.9108ZM5.93881 11.8229V10.0237H6.55427V11.8229H5.93881Z"
+                                            fill="#505F79" />
+                                        <path
+                                            d="M13.9983 6.38758C13.9716 5.52428 13.62 4.7119 13.0082 4.10009C12.7146 3.80652 12.3801 3.57845 12.0228 3.41554C12.0168 3.41209 12.0106 3.40889 12.0042 3.40599C11.9976 3.40304 11.991 3.40047 11.9843 3.39828C11.5223 3.19454 11.0237 3.09895 10.5274 3.11175V1.98185C10.5274 1.71918 10.3138 1.50549 10.0511 1.50549H9.75536V1.24945C9.75536 0.986781 9.54172 0.77309 9.27908 0.77309H8.98249V0.476355C8.98251 0.213691 8.76885 0 8.50624 0H0.476365C0.213728 0 9.15527e-05 0.213691 9.15527e-05 0.476355V12.0182C9.15527e-05 12.2808 0.213728 12.4945 0.476365 12.4945H0.772963V12.7913C0.772963 13.0539 0.9866 13.2676 1.24839 13.2676L1.54504 13.2688V13.5237C1.54504 13.7863 1.75868 14 2.02131 14H8.42738C8.481 14 8.53405 13.9782 8.57206 13.9403L10.4671 12.0543C10.5057 12.0158 10.5275 11.9635 10.5275 11.9089V9.8758C10.5551 9.87648 10.5828 9.87714 10.6104 9.87714C11.1884 9.87714 11.764 9.7294 12.2675 9.44732C12.4988 9.31771 12.2983 8.95997 12.067 9.0895C10.972 9.70307 9.60171 9.55188 8.66311 8.73526L10.677 6.72137L13.4302 7.45095C13.3089 7.80973 13.1171 8.15019 12.8538 8.45053C12.679 8.64992 12.9874 8.9203 13.1622 8.72093C13.728 8.07559 14.0249 7.24694 13.9983 6.38758ZM11.6454 3.70357L10.4438 6.37446L8.37269 8.44555C7.35537 7.27871 7.40188 5.50082 8.51261 4.39009C9.35819 3.54452 10.5905 3.31579 11.6454 3.70357ZM1.24918 12.8574C1.21273 12.8574 1.18309 12.8277 1.18309 12.7912V1.24945C1.18309 1.21294 1.21273 1.18325 1.24918 1.18325H2.67975C2.9449 1.18325 2.9449 0.77309 2.67975 0.77309H1.24918C0.986572 0.77309 0.772935 0.986781 0.772935 1.24945V12.0844H0.476365C0.439916 12.0844 0.410248 12.0547 0.410248 12.0182V0.476355C0.410248 0.439852 0.439916 0.410156 0.476365 0.410156H8.50624C8.54269 0.410156 8.57236 0.439852 8.57236 0.476355V0.773117H3.82822C3.56306 0.773117 3.56306 1.18327 3.82822 1.18327H9.27911C9.31556 1.18327 9.34523 1.21297 9.34523 1.24947V1.50552H2.02129C1.75868 1.50552 1.54501 1.71921 1.54501 1.98188V12.8587L1.24918 12.8574ZM1.95517 13.5236V1.98185C1.95517 1.94534 1.98484 1.91565 2.02129 1.91565H10.0512C10.0876 1.91565 10.1173 1.94534 10.1173 1.98185V3.14721C9.42343 3.24964 8.75551 3.56718 8.22258 4.10011C6.90319 5.4195 6.90319 7.56632 8.22258 8.88573C8.74153 9.40466 9.39573 9.7335 10.1173 9.84019V11.6862H8.69855C8.43594 11.6862 8.22228 11.8999 8.22228 12.1626V13.5898H2.02129C1.98484 13.5898 1.95517 13.5601 1.95517 13.5236ZM8.63243 13.2982V12.1626C8.63243 12.1261 8.6621 12.0964 8.69855 12.0964H9.82883L8.63243 13.2982ZM10.9016 6.35657L12.0197 3.87146C12.2708 4.00581 12.5066 4.17859 12.7181 4.39012C13.4369 5.10893 13.7129 6.11562 13.5344 7.05428L10.9016 6.35657Z"
+                                            fill="#505F79" />
+                                    </svg>
+                                </span>
+                                <span
+                                    class="mx-1 text-[12px] 2xl:text-[13px] pt-[7px] pb-[5px] leading-none">রিপোর্ট</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <main id="mainContent" class="flex-1 overflow-x-hidden overflow-y-auto bg-[#f8f9fd]">
+            <div class="container py-6">
+
+                <div class="dash-sec-block relative w-full mb-6">
+                    <div class="w-full flex justify-between items-center pb-4 gap-4 flex-wrap">
+                        <h3 class="text-[13px] leading-tight text-[#00684D]">আবেদন নং # ৫৫৫৬৫৬</h3>
+
+                        <div class="flex flex-wrap gap-[15px] items-center">
+                            <h3 class="text-[13px] leading-tight mr-[15px] text-[#00684D]">আবেদনের বর্তমান অবস্থা :
+                                আবেদনপত্র গ্রহণযোগ্য হিসাবে বিবেচিত (প্রাপক :সহকারী কমিশনার (ভূমি))</h3>
+                            <button
+                                class="h-[30px] flex items-center justify-center flex-nowrap py-[10px] px-4 text-[12px] leading-[16px] border border-[#00684D] text-[#00684D] bg-[#ffffff] hover:bg-opacity-90 rounded-[5px] gap-[5px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_7452_7300)">
+                                        <path
+                                            d="M10.2917 3.25V2.16667C10.2917 1.59203 10.0634 1.04093 9.65707 0.634602C9.25074 0.228273 8.69964 0 8.125 0L4.875 0C4.30036 0 3.74926 0.228273 3.34294 0.634602C2.93661 1.04093 2.70833 1.59203 2.70833 2.16667V3.25C1.9903 3.25086 1.30193 3.53648 0.794203 4.0442C0.286478 4.55193 0.00086009 5.2403 0 5.95833L0 8.66667C0.00086009 9.3847 0.286478 10.0731 0.794203 10.5808C1.30193 11.0885 1.9903 11.3741 2.70833 11.375C2.70833 11.806 2.87954 12.2193 3.18429 12.5241C3.48903 12.8288 3.90236 13 4.33333 13H8.66667C9.09764 13 9.51097 12.8288 9.81572 12.5241C10.1205 12.2193 10.2917 11.806 10.2917 11.375C11.0097 11.3741 11.6981 11.0885 12.2058 10.5808C12.7135 10.0731 12.9991 9.3847 13 8.66667V5.95833C12.9991 5.2403 12.7135 4.55193 12.2058 4.0442C11.6981 3.53648 11.0097 3.25086 10.2917 3.25ZM3.79167 2.16667C3.79167 1.87935 3.9058 1.6038 4.10897 1.40063C4.31213 1.19747 4.58768 1.08333 4.875 1.08333H8.125C8.41232 1.08333 8.68787 1.19747 8.89103 1.40063C9.0942 1.6038 9.20833 1.87935 9.20833 2.16667V3.25H3.79167V2.16667ZM9.20833 11.375C9.20833 11.5187 9.15127 11.6564 9.04968 11.758C8.9481 11.8596 8.81033 11.9167 8.66667 11.9167H4.33333C4.18967 11.9167 4.0519 11.8596 3.95032 11.758C3.84874 11.6564 3.79167 11.5187 3.79167 11.375V9.20833C3.79167 9.06468 3.84874 8.9269 3.95032 8.82532C4.0519 8.72374 4.18967 8.66667 4.33333 8.66667H8.66667C8.81033 8.66667 8.9481 8.72374 9.04968 8.82532C9.15127 8.9269 9.20833 9.06468 9.20833 9.20833V11.375ZM11.9167 8.66667C11.9167 9.09764 11.7455 9.51097 11.4407 9.81572C11.136 10.1205 10.7226 10.2917 10.2917 10.2917V9.20833C10.2917 8.77736 10.1205 8.36403 9.81572 8.05929C9.51097 7.75454 9.09764 7.58333 8.66667 7.58333H4.33333C3.90236 7.58333 3.48903 7.75454 3.18429 8.05929C2.87954 8.36403 2.70833 8.77736 2.70833 9.20833V10.2917C2.27736 10.2917 1.86403 10.1205 1.55929 9.81572C1.25454 9.51097 1.08333 9.09764 1.08333 8.66667V5.95833C1.08333 5.52736 1.25454 5.11403 1.55929 4.80929C1.86403 4.50454 2.27736 4.33333 2.70833 4.33333H10.2917C10.7226 4.33333 11.136 4.50454 11.4407 4.80929C11.7455 5.11403 11.9167 5.52736 11.9167 5.95833V8.66667Z"
+                                            fill="#00684D" />
+                                        <path
+                                            d="M9.75 5.41687H8.66667C8.52301 5.41687 8.38523 5.47394 8.28365 5.57552C8.18207 5.6771 8.125 5.81488 8.125 5.95854C8.125 6.10219 8.18207 6.23997 8.28365 6.34155C8.38523 6.44313 8.52301 6.5002 8.66667 6.5002H9.75C9.89366 6.5002 10.0314 6.44313 10.133 6.34155C10.2346 6.23997 10.2917 6.10219 10.2917 5.95854C10.2917 5.81488 10.2346 5.6771 10.133 5.57552C10.0314 5.47394 9.89366 5.41687 9.75 5.41687Z"
+                                            fill="#00684D" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_7452_7300">
+                                            <rect width="13" height="13" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                প্রিন্ট
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tab-content-block bg-white p-4">
+                        <div x-data="{isShow:false}" class="tab-main-content block relative">
+                            <div class="overflow-x-scroll mb-4">
+                                <div
+                                    :class="isShow && 'backdrop-blur-xl bg-white/80 fixed inset-0 z-50 p-4 overflow-x-scroll'">
+                                    <template x-if="isShow">
+                                        <button @click="isShow=false" class="text-red-500 absolute right-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg></button>
+                                    </template>
+                                    <div class="min-w-[1600px] mb-4">
+                                        <div class="text-center mx-auto">
+                                            <h1 class="font-bold">নামজারি ও জমা-খারিজের জন্য
+                                                দরখাস্ত
+                                                বা রিপোর্ট ফরম
+                                            </h1>
+                                            <div class="text-[13px]">
+                                                <p>(১১০ নং নিয়মে দ্রষ্টব্য)</p>
+                                                <p>উপজেলা ভূমি অফিসের রেজিস্টার্ডের কেস নং-
+                                                    ২,৮৩৬(IX-I)/২০২০-২১</p>
+                                                <p class="flex items-center justify-center gap-2">
+                                                    ইউনিয়ন
+                                                    ভূমি
+                                                    অফিসের রেজিস্টার কেস নং-
+                                                    <input class="w-fit smt-input text-[12px] leading-[20px]"
+                                                        type="text" value="৮০(IX-I)/২০২৩-২৪">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center justify-between gap-4 text-[13px] mt-2">
+                                            <p><b>জেলা:</b> গোপালগঞ্জ</p>
+                                            <p><b>উপজেলা:</b> গোপালগঞ্জ সদর </p>
+                                            <p><b>ভূমি অফিস:</b> দুর্গাপুর ইউনিয়ন ভূমি অফিস
+                                            </p>
+                                            <p><b>মৌজা:</b> কারারগাতি</p>
+                                            <p><b>জে.এল নৎ:</b> ১০২</p>
+
+                                        </div>
+                                    </div>
+                                    <table class="min-w-[1600px] border-collapse border text-center mb-4 text-[13px]">
+                                        <thead>
+                                            <tr>
+                                                <th class="border border-gray-500 p-1">1</th>
+                                                <th colspan="5" class="border border-gray-500 p-1">2
+                                                </th>
+                                                <th colspan="7" class="border border-gray-500 p-1">3
+                                                </th>
+                                                <th colspan="4" class="border border-gray-500 p-1">4
+                                                </th>
+                                                <th class="border border-gray-500 p-1">5</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="align-top">
+                                            <tr>
+                                                <td rowspan="4" class="border border-gray-500 p-1 whitespace-nowrap">
+                                                    আবেদনকারীর নাম ও
+                                                    পূর্ণ ঠিকানা</td>
+                                                <td colspan="5" class="border border-gray-500 p-1 whitespace-nowrap">
+                                                    রেকর্ডীয়
+                                                    মালিকানা/ নামজারি জমা-খারিজ মালিকানা
+                                                    স্বত্বের
+                                                    বিবরণ</td>
+                                                <td colspan="7" class="border border-gray-500 p-1 whitespace-nowrap">
+                                                    আবেদনকৃত ও
+                                                    প্রস্তাবিত জমির বিবরণ</td>
+                                                <td colspan="4" class="border border-gray-500 p-1 whitespace-nowrap">
+                                                    আবেদনকৃত ভূমি
+                                                    প্রাপ্তির বিবরণ </td>
+                                                <td rowspan="4" class="border border-gray-500 p-1 whitespace-nowrap">
+                                                    মন্তব্য</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    খতিয়ানের ধরন
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    খতিয়ান নং
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    রেকর্ডীয় ও মালিকের নাম
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    খতিয়ানে মোট জমির পরিমাণ (একর)
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    সর্বশেষ নামজারি জমা-খারিজ খতিয়ান নং ও
+                                                    মালিকের
+                                                    নাম
+                                                </td>
+
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    আবেদনের দাগ নং
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    শ্রেণী
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    রেকর্ডীয় খতিয়ানে দাগে জমির পরিমাণ (একর)
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    খারিজ
+                                                    খতিয়ানে দাগে জমির পরিমাণ (একর)
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    আবেদনকৃত জমির পরিমাণ (একর)
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    প্রস্তাবিত জমির পরিমাণ (একর)
+                                                </td>
+                                                <td rowspan="3" class="border border-gray-500 p-1">
+                                                    প্রস্তাবিত ভু:উ:ক: (টাকা)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2" class="border border-gray-500 p-1">
+                                                    কোন
+                                                    সূত্রে প্রাপ্ত
+                                                </td>
+                                                <td colspan="3" class="border border-gray-500 p-1">
+                                                    দলিলের বিবরণ
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="border border-gray-500 p-1">দলিল নং ও
+                                                    তারিখ
+                                                </td>
+                                                <td class="border border-gray-500 p-1">দলিলের
+                                                    প্রকৃতি ও
+                                                    বর্ণনা</td>
+                                                <td class="border border-gray-500 p-1">সা:রেজি:
+                                                    অফিস
+                                                </td>
+                                            </tr>
+                                            <tr class="align-top">
+                                                <td class="border border-gray-500 p-1 text-left">
+                                                    <div class="mb-2">
+                                                        <p><span>১)</span> মাঃ িমজানু র রহমান মু া</p>
+                                                        <p> িপতা/ ামী: মাঃ নু ল ইসলাম</p>
+                                                        <p>মাতা:রােবয়া ইসলাম</p>
+                                                        <p>জাতীয় পিরচয়প :7802967948</p>
+                                                        <p>িমরপু র, ঢাকা</p>
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <p><span>২)</span> মাঃ িমজানু র রহমান মু া</p>
+                                                        <p> িপতা/ ামী: মাঃ নু ল ইসলাম</p>
+                                                        <p>মাতা:রােবয়া ইসলাম</p>
+                                                        <p>জাতীয় পিরচয়প :7802967948</p>
+                                                        <p>িমরপু র, ঢাকা</p>
+                                                    </div>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <select
+                                                        class="mb-2 smt-select block text-[12px] leading-[20px] w-full bg-none">
+                                                        <option>নামজারি</option>
+                                                        <option>নামজারি</option>
+                                                    </select>
+                                                    <select
+                                                        class="mb-2 smt-select block text-[12px] leading-[20px] w-full bg-none">
+                                                        <option>নামজারি</option>
+                                                        <option>নামজারি</option>
+                                                    </select>
+                                                    <select
+                                                        class="mb-2 smt-select block text-[12px] leading-[20px] w-full bg-none">
+                                                        <option>নামজারি</option>
+                                                        <option>নামজারি</option>
+                                                    </select>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ান নং">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ান নং">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ান নং">
+                                                </td>
+                                                <td class="border border-gray-500 p-1 text-left">
+                                                    <div class="mb-2">
+                                                        <span class="pr-1">১)</span>
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <span class="pr-1">২)</span>
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ানে মোট জমির পরিমাণ (একর)">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ানে মোট জমির পরিমাণ (একর)">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="খতিয়ানে মোট জমির পরিমাণ (একর)">
+                                                </td>
+                                                <td class="border border-gray-500 p-1 text-left">
+                                                    <div class="mb-2">
+                                                        <span class="pr-1">১)</span>
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <span class="pr-1">২)</span>
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <div class="relative pl-1 mb-2">
+                                                        <input class="smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="আবেদনের দাগ নং">
+                                                        <button class="absolute left-0 top-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" height="16"
+                                                                width="14" fill="#FF0000" viewBox="0 0 448 512">
+                                                                <path
+                                                                    d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                                                            </svg></button>
+                                                    </div>
+                                                    <div class="relative pl-1 mb-2">
+                                                        <input class="smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="আবেদনের দাগ নং">
+                                                        <button class="absolute left-0 top-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" height="16"
+                                                                width="14" fill="#FF0000" viewBox="0 0 448 512">
+                                                                <path
+                                                                    d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                                                            </svg></button>
+                                                    </div>
+                                                    <div class="relative pl-1 mb-2">
+                                                        <input class="smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="আবেদনের দাগ নং">
+                                                        <button class="absolute left-0 top-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" height="16"
+                                                                width="14" fill="#FF0000" viewBox="0 0 448 512">
+                                                                <path
+                                                                    d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z" />
+                                                            </svg></button>
+                                                    </div>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="শ্রেণী">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="শ্রেণী">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="শ্রেণী">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number"
+                                                        placeholder="রেকর্ডীয় খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number"
+                                                        placeholder="রেকর্ডীয় খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number"
+                                                        placeholder="রেকর্ডীয় খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="খারিজ খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="খারিজ খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="খারিজ খতিয়ানে দাগে জমির পরিমাণ (একর)	">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="আবেদনকৃত জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="আবেদনকৃত জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="আবেদনকৃত জমির পরিমাণ (একর)	">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="প্রস্তাবিত জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="প্রস্তাবিত জমির পরিমাণ (একর)	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="প্রস্তাবিত জমির পরিমাণ (একর)	">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]"
+                                                        type="number" placeholder="প্রস্তাবিত ভু:উ:ক: (টাকা)
+                                                        ">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <select
+                                                        class="smt-select block text-[12px] leading-[20px] w-full h-full bg-none"
+                                                        multiple>
+                                                        <option>ক্রয়</option>
+                                                        <option>ওয়ারিশ</option>
+                                                        <option>হেবা</option>
+                                                        <option>ডিক্রি</option>
+                                                    </select>
+                                                    <input class="smt-input text-[12px] leading-[20px]" type="text">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <div class="mb-2">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="দলিল নং">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="দলিল নং">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="number" placeholder="দলিল নং">
+                                                        <input class="mb-px smt-input text-[12px] leading-[20px]"
+                                                            type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="দলিলের প্রকৃতি ও বর্ণনা	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="দলিলের প্রকৃতি ও বর্ণনা	">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="দলিলের প্রকৃতি ও বর্ণনা	">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="সা:রেজি: অফিস
+                                                        ">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="সা:রেজি: অফিস
+                                                        ">
+                                                    <input class="mb-2 smt-input text-[12px] leading-[20px]" type="text"
+                                                        placeholder="সা:রেজি: অফিস
+                                                        ">
+                                                </td>
+                                                <td class="border border-gray-500 p-1">
+                                                    <textarea
+                                                        class="smt-textarea text-[12px] leading-[20px] min-h-[100px]"
+                                                        name="order_comments" cols="30" rows="5"
+                                                        placeholder="মন্তব্য"></textarea>
+                                                    <textarea class="smt-textarea text-[12px] leading-[20px]"
+                                                        name="order_comments" placeholder="হোল্ডিং নম্বর"></textarea>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <template x-if="isShow">
+                                        <button @click="isShow=false"
+                                            class="mx-auto h-[36px] flex items-center justify-center flex-nowrap py-[8px] px-6 text-[13px] leading-[18px] text-[#071638] bg-[#EBECEF] hover:bg-opacity-80 rounded-[5px] gap-[5px]">
+                                            Close
+                                        </button>
+                                    </template>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-4">
+                                <button @click="isShow=true" class="h-[30px] btn-blue-outline">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8737_25585)">
+                                            <path
+                                                d="M9.20849 11.5002H8.29183C8.17027 11.5002 8.05369 11.4519 7.96774 11.3659C7.88178 11.28 7.8335 11.1634 7.8335 11.0418C7.8335 10.9203 7.88178 10.8037 7.96774 10.7177C8.05369 10.6318 8.17027 10.5835 8.29183 10.5835H9.20849C9.57317 10.5835 9.9229 10.4386 10.1808 10.1808C10.4386 9.9229 10.5835 9.57317 10.5835 9.20849V8.29183C10.5835 8.17027 10.6318 8.05369 10.7177 7.96774C10.8037 7.88178 10.9203 7.8335 11.0418 7.8335C11.1634 7.8335 11.28 7.88178 11.3659 7.96774C11.4519 8.05369 11.5002 8.17027 11.5002 8.29183V9.20849C11.4994 9.81606 11.2578 10.3985 10.8281 10.8281C10.3985 11.2578 9.81606 11.4994 9.20849 11.5002Z"
+                                                fill="#2B7FFF" />
+                                            <path
+                                                d="M0.958333 4.16667C0.836776 4.16667 0.720197 4.11838 0.634243 4.03242C0.548289 3.94647 0.5 3.82989 0.5 3.70833V2.79167C0.500728 2.1841 0.742404 1.60163 1.17202 1.17202C1.60163 0.742404 2.1841 0.500728 2.79167 0.5L3.70833 0.5C3.82989 0.5 3.94647 0.548289 4.03242 0.634243C4.11838 0.720197 4.16667 0.836776 4.16667 0.958333C4.16667 1.07989 4.11838 1.19647 4.03242 1.28242C3.94647 1.36838 3.82989 1.41667 3.70833 1.41667H2.79167C2.42699 1.41667 2.07726 1.56153 1.8194 1.8194C1.56153 2.07726 1.41667 2.42699 1.41667 2.79167V3.70833C1.41667 3.82989 1.36838 3.94647 1.28242 4.03242C1.19647 4.11838 1.07989 4.16667 0.958333 4.16667Z"
+                                                fill="#2B7FFF" />
+                                            <path
+                                                d="M3.70833 11.5002H2.79167C2.1841 11.4994 1.60163 11.2578 1.17202 10.8281C0.742404 10.3985 0.500728 9.81606 0.5 9.20849L0.5 8.29183C0.5 8.17027 0.548289 8.05369 0.634243 7.96774C0.720197 7.88178 0.836776 7.8335 0.958333 7.8335C1.07989 7.8335 1.19647 7.88178 1.28242 7.96774C1.36838 8.05369 1.41667 8.17027 1.41667 8.29183V9.20849C1.41667 9.57317 1.56153 9.9229 1.8194 10.1808C2.07726 10.4386 2.42699 10.5835 2.79167 10.5835H3.70833C3.82989 10.5835 3.94647 10.6318 4.03242 10.7177C4.11838 10.8037 4.16667 10.9203 4.16667 11.0418C4.16667 11.1634 4.11838 11.28 4.03242 11.3659C3.94647 11.4519 3.82989 11.5002 3.70833 11.5002Z"
+                                                fill="#2B7FFF" />
+                                            <path
+                                                d="M11.0418 4.16667C10.9203 4.16667 10.8037 4.11838 10.7177 4.03242C10.6318 3.94647 10.5835 3.82989 10.5835 3.70833V2.79167C10.5835 2.42699 10.4386 2.07726 10.1808 1.8194C9.9229 1.56153 9.57317 1.41667 9.20849 1.41667H8.29183C8.17027 1.41667 8.05369 1.36838 7.96774 1.28242C7.88178 1.19647 7.8335 1.07989 7.8335 0.958333C7.8335 0.836776 7.88178 0.720197 7.96774 0.634243C8.05369 0.548289 8.17027 0.5 8.29183 0.5H9.20849C9.81606 0.500728 10.3985 0.742404 10.8281 1.17202C11.2578 1.60163 11.4994 2.1841 11.5002 2.79167V3.70833C11.5002 3.82989 11.4519 3.94647 11.3659 4.03242C11.28 4.11838 11.1634 4.16667 11.0418 4.16667Z"
+                                                fill="#2B7FFF" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_8737_25585">
+                                                <rect width="11" height="11" fill="white"
+                                                    transform="translate(0.5 0.5)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    প্রশস্ত করে দেখুন
+                                </button>
+                                <a href="#" class="h-[30px] btn-blue-outline">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8777_564)">
+                                            <path
+                                                d="M9.20833 3.25V2.33333C9.20833 1.8471 9.01518 1.38079 8.67136 1.03697C8.32755 0.693154 7.86123 0.5 7.375 0.5H4.625C4.13877 0.5 3.67245 0.693154 3.32864 1.03697C2.98482 1.38079 2.79167 1.8471 2.79167 2.33333V3.25C2.1841 3.25073 1.60163 3.4924 1.17202 3.92202C0.742404 4.35163 0.500728 4.9341 0.5 5.54167L0.5 7.83333C0.500728 8.4409 0.742404 9.02337 1.17202 9.45298C1.60163 9.8826 2.1841 10.1243 2.79167 10.125C2.79167 10.4897 2.93653 10.8394 3.1944 11.0973C3.45226 11.3551 3.80199 11.5 4.16667 11.5H7.83333C8.19801 11.5 8.54774 11.3551 8.80561 11.0973C9.06347 10.8394 9.20833 10.4897 9.20833 10.125C9.8159 10.1243 10.3984 9.8826 10.828 9.45298C11.2576 9.02337 11.4993 8.4409 11.5 7.83333V5.54167C11.4993 4.9341 11.2576 4.35163 10.828 3.92202C10.3984 3.4924 9.8159 3.25073 9.20833 3.25ZM3.70833 2.33333C3.70833 2.09022 3.80491 1.85706 3.97682 1.68515C4.14873 1.51324 4.38189 1.41667 4.625 1.41667H7.375C7.61812 1.41667 7.85127 1.51324 8.02318 1.68515C8.19509 1.85706 8.29167 2.09022 8.29167 2.33333V3.25H3.70833V2.33333ZM8.29167 10.125C8.29167 10.2466 8.24338 10.3631 8.15743 10.4491C8.07147 10.535 7.95489 10.5833 7.83333 10.5833H4.16667C4.04511 10.5833 3.92853 10.535 3.84258 10.4491C3.75662 10.3631 3.70833 10.2466 3.70833 10.125V8.29167C3.70833 8.17011 3.75662 8.05353 3.84258 7.96758C3.92853 7.88162 4.04511 7.83333 4.16667 7.83333H7.83333C7.95489 7.83333 8.07147 7.88162 8.15743 7.96758C8.24338 8.05353 8.29167 8.17011 8.29167 8.29167V10.125ZM10.5833 7.83333C10.5833 8.19801 10.4385 8.54774 10.1806 8.80561C9.92274 9.06347 9.57301 9.20833 9.20833 9.20833V8.29167C9.20833 7.927 9.06347 7.57726 8.80561 7.3194C8.54774 7.06153 8.19801 6.91667 7.83333 6.91667H4.16667C3.80199 6.91667 3.45226 7.06153 3.1944 7.3194C2.93653 7.57726 2.79167 7.927 2.79167 8.29167V9.20833C2.42699 9.20833 2.07726 9.06347 1.8194 8.80561C1.56153 8.54774 1.41667 8.19801 1.41667 7.83333V5.54167C1.41667 5.17699 1.56153 4.82726 1.8194 4.5694C2.07726 4.31153 2.42699 4.16667 2.79167 4.16667H9.20833C9.57301 4.16667 9.92274 4.31153 10.1806 4.5694C10.4385 4.82726 10.5833 5.17699 10.5833 5.54167V7.83333Z"
+                                                fill="#2B7FFF" />
+                                            <path
+                                                d="M8.75 5.0835H7.83333C7.71178 5.0835 7.5952 5.13178 7.50924 5.21774C7.42329 5.30369 7.375 5.42027 7.375 5.54183C7.375 5.66339 7.42329 5.77996 7.50924 5.86592C7.5952 5.95187 7.71178 6.00016 7.83333 6.00016H8.75C8.87155 6.00016 8.98813 5.95187 9.07409 5.86592C9.16004 5.77996 9.20833 5.66339 9.20833 5.54183C9.20833 5.42027 9.16004 5.30369 9.07409 5.21774C8.98813 5.13178 8.87155 5.0835 8.75 5.0835Z"
+                                                fill="#2B7FFF" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_8777_564">
+                                                <rect width="11" height="11" fill="white"
+                                                    transform="translate(0.5 0.5)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                    প্রিন্ট
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer id="siteFooter"
+            class="flex w-full justify-between items-center p-4 bg-white shadow-lg border-t border-[#C9C7C7]">
+            <div class="flex w-full items-center justify-center">
+                <a class="flex items-center justify-center" href="#">
+                    <img class="w-[110px] lg:w-[130px] h-auto block" src="./assets/images/ba-footer-logo-land.svg"
+                        width="130" alt="Logo">
+                </a>
+                <span class="w-[1px] bg-gray-300 mx-10 h-[40px] lg:h-[50px]"></span>
+                <a class="flex items-center justify-center" href="#">
+                    <img class="w-[70px] lg:w-[80px] h-auto block" src="./assets/images/ba-footer-logo.svg" width="80"
+                        alt="Logo">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./assets/js/main-script.js"></script>
+
+</body>
+
+</html>
