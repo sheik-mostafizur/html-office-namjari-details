@@ -2935,12 +2935,24 @@
                                             </div>
 
                                             <div x-show="tab === 'tabProstabPotro'" class="tab-content-block">
-                                                <div class="tab-main-content block relative">
+                                                <div x-data="{isShow:false}" class="tab-main-content block relative">
                                                     <h2 class="text-[20px] block">প্রস্তাবপত্র</h2>
                                                     <hr class="pb-4 mb-4">
                                                     <div class="overflow-x-scroll mb-4">
-                                                        <div>
-                                                            <div class="w-[1600px] mb-4">
+                                                        <div
+                                                            :class="isShow && 'backdrop-blur-xl bg-white/40 fixed inset-0 z-50 p-4 overflow-x-scroll'">
+                                                            <template x-if="isShow">
+                                                                <button @click="isShow=false"
+                                                                    class="text-red-500 absolute right-4">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                    </svg></button>
+                                                            </template>
+                                                            <div class="min-w-[1600px] mb-4">
                                                                 <div class="text-center mx-auto">
                                                                     <h1 class="font-bold">নামজারি ও জমা-খারিজের জন্য
                                                                         দরখাস্ত
@@ -2973,7 +2985,7 @@
                                                                 </div>
                                                             </div>
                                                             <table
-                                                                class="w-[1600px] border-collapse border text-center mb-4 text-[13px]">
+                                                                class="min-w-[1600px] border-collapse border text-center mb-4 text-[13px]">
                                                                 <thead>
                                                                     <tr>
                                                                         <th class="border border-gray-500 p-1">1</th>
@@ -3523,7 +3535,8 @@
                                                         </table>
                                                     </div>
                                                     <div>
-                                                        <button class="h-[30px] btn-blue-outline mx-auto">
+                                                        <button @click="isShow=true"
+                                                            class="h-[30px] btn-blue-outline mx-auto">
                                                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
                                                                 <g clip-path="url(#clip0_8737_25585)">
