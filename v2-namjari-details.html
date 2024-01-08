@@ -2940,7 +2940,7 @@
                                                     <hr class="pb-4 mb-4">
                                                     <div class="overflow-x-scroll mb-4">
                                                         <div
-                                                            :class="isShow && 'backdrop-blur-xl bg-white/40 fixed inset-0 z-50 p-4 overflow-x-scroll'">
+                                                            :class="isShow && 'backdrop-blur-xl bg-white/80 fixed inset-0 z-50 p-4 overflow-x-scroll'">
                                                             <template x-if="isShow">
                                                                 <button @click="isShow=false"
                                                                     class="text-red-500 absolute right-4">
@@ -3104,22 +3104,22 @@
                                                                     <tr class="align-top">
                                                                         <td
                                                                             class="border border-gray-500 p-1 text-left">
-                                                                            <div class="flex flex-wrap gap-px mb-2">
+                                                                            <div class="mb-2">
                                                                                 <span class="pr-1">১)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
-                                                                            <div class="flex flex-wrap gap-px mb-2">
-                                                                                <span class="pr-1">১)</span>
+                                                                            <div class="mb-2">
+                                                                                <span class="pr-1">২)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
                                                                         </td>
@@ -3153,22 +3153,22 @@
                                                                         </td>
                                                                         <td
                                                                             class="border border-gray-500 p-1 text-left">
-                                                                            <div class="flex flex-wrap gap-px mb-2">
+                                                                            <div class="mb-2">
                                                                                 <span class="pr-1">১)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
-                                                                            <div class="flex flex-wrap gap-px mb-2">
-                                                                                <span class="pr-1">১)</span>
+                                                                            <div class="mb-2">
+                                                                                <span class="pr-1">২)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
                                                                         </td>
@@ -3186,23 +3186,24 @@
                                                                                 type="number"
                                                                                 placeholder="খতিয়ানে মোট জমির পরিমাণ (একর)">
                                                                         </td>
-                                                                        <td class="border border-gray-500 p-1">
-                                                                            <div class="flex flex-wrap gap-px mb-2">
+                                                                        <td
+                                                                            class="border border-gray-500 p-1 text-left">
+                                                                            <div class="mb-2">
                                                                                 <span class="pr-1">১)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
-                                                                            <div class="flex flex-wrap gap-px mb-2">
-                                                                                <span class="pr-1">১)</span>
+                                                                            <div class="mb-2">
+                                                                                <span class="pr-1">২)</span>
                                                                                 <input
-                                                                                    class="flex-1 smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                                 <input
-                                                                                    class="smt-input text-[12px] leading-[20px]"
+                                                                                    class="mb-px smt-input text-[12px] leading-[20px]"
                                                                                     type="text">
                                                                             </div>
                                                                         </td>
@@ -3406,6 +3407,12 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
+                                                            <template x-if="isShow">
+                                                                <button @click="isShow=false"
+                                                                    class="mx-auto h-[36px] flex items-center justify-center flex-nowrap py-[8px] px-6 text-[13px] leading-[18px] text-[#071638] bg-[#EBECEF] hover:bg-opacity-80 rounded-[5px] gap-[5px]">
+                                                                    Close
+                                                                </button>
+                                                            </template>
                                                         </div>
                                                         <table
                                                             class="w-[1600px] border-collapse text-right mb-4 text-[13px] ">
